@@ -1,6 +1,6 @@
 const form = document.getElementById("form")
 const display = document.getElementById("display")
-const apikey = "c5f057689c4bcdbf517e0e9a517e0eba"
+const apikey = ""
 
 form.addEventListener("submit", async event => {
     event.preventDefault();
