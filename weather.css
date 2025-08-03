@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    margin: 10%;
+}
+#city{
+    font-size: 1.5em;
+    padding: 3%;
+}
+button{
+    background-color: hsl(120, 100%, 55%);
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2%;
+    cursor: pointer;
+    margin: 3%;
+}
+button:hover{
+    background-color: hsl(120, 100%, 35%);   
+}
+button:active{
+    background-color: hsl(120, 100%, 75%);
+}
+#display{
+    display: none;
+    background: linear-gradient(180deg,hsla(210, 100%, 75%, 0.781),hsl(40, 90%, 31%));
+    width: 80%;
+    height: 65vh;
+    margin-left: 10%;
+    box-shadow: 4px 6px 5px black;
+}
+#citydisplay{
+    font-size: 2em;
+    font-weight: bold;
+}
+#degree{
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0;
+}
+#humiditydisplay{
+    font-weight: bold;
+    font-size: 1.5em;  
+}
+#descriptiondisplay{
+    font-weight: bold;
+    font-size: 1.5em;    
+}
+#emoji{
+    font-weight: bold;
+    font-size: 2em; 
+}
+#errordisplay{
+    font-weight: bold;
+    font-size: 2em;   
+}
